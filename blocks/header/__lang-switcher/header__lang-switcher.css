@@ -1,0 +1,9 @@
+.header__lang-switcher{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 18px;
+  margin: 0 0 6px 0;
+  padding: 0;
+}
