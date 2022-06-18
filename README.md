@@ -21,3 +21,20 @@
 Не забудьте [оптимизировать картинки](https://tinypng.com/), чтобы ваш сайт загружался быстрее.
 
 Удачи!
+
+
+@media (max-width: 1279px) {
+.lead__subtitle{
+margin-bottom: 56px;
+}
+}
+@media (max-width: 1023px) {
+.lead__subtitle{
+
+}
+}
+@media (max-width: 767px) {
+.lead__subtitle{
+margin-bottom: 40px;
+}
+}
