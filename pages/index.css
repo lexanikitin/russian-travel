@@ -33,7 +33,11 @@
 @import url(../blocks/intro/__list/intro__list.css);
 @import url(../blocks/intro/__item/intro__item.css);
 @import url(../blocks/intro/__item/_item-name/intro__item_bold-name.css);
-
+/*
+ section grid
+*/
+@import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/photo-grid/__item/photo-grid__item.css);
 
 /*
  footer
