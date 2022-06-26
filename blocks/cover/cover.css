@@ -1,0 +1,9 @@
+.cover{
+  margin: 0 48px;
+  position: relative;
+}
+@media (max-width: 1279px) {
+  .cover{
+    margin: 0;
+  }
+}

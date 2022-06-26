@@ -1,0 +1,9 @@
+.cover__image{
+  background: #2A2C2F;
+  opacity: 0.8;
+  width: 100%;
+}
+.cover__image:hover{
+  opacity: 0.3;
+  cursor: pointer;
+}
