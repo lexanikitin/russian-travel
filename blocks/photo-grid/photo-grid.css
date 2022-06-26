@@ -1,9 +1,9 @@
 .photo-grid{
   display: grid;
   gap: 16px;
-  margin: 0 auto;
-  padding: 0 48px;
+  margin: 0 48px;
   grid-template-columns: repeat(4, 284px);
+  max-width: 100%;
 }
 @media (max-width: 1279px) {
   .photo-grid{
@@ -13,14 +13,14 @@
 }
 @media (max-width: 1023px) {
   .photo-grid{
-    padding: 0 24px;
+    margin: 0 24px;
     gap: 16px;
     grid-template-columns: repeat(2, 352px);
   }
 }
 @media (max-width: 767px) {
   .photo-grid{
-    padding: 0 16px;
+    margin: 0 16px;
     gap: 12px;
     grid-template-columns: 288px;
   }
