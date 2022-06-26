@@ -1,0 +1,27 @@
+.footer{
+  padding-top: 92px;
+  padding-bottom: 24px;
+  margin: 0 48px;
+  color: white;
+  font-family: 'Inter', Arial, sans-serif;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+@media (max-width: 1023px) {
+  .footer{
+    margin: 0 24px;
+    padding-top: 88px;
+  }
+}
+
+@media (max-width: 767px) {
+  .footer{
+    flex-direction: column;
+    gap: 48px;
+    margin: 0 16px;
+    padding-top: 64px;
+
+  }
+}
