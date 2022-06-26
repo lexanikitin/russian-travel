@@ -1,0 +1,29 @@
+.places__list{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  max-width: 984px;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+@media (max-width: 1279px) {
+  .places__list{
+    max-width: 928px;
+
+  }
+}
+@media (max-width: 1023px) {
+  .places__list{
+    max-width: 720px;
+    gap: 73px;
+
+  }
+}
+@media (max-width: 767px) {
+  .places__list{
+    max-width: 320px;
+    gap: 50px;
+
+  }
+}
