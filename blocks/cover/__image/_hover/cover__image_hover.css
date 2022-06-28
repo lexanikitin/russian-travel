@@ -1,5 +1,0 @@
-.cover__image:hover{
-  opacity: 0.3;
-  cursor: pointer;
-  transition: opacity .5s ease-in-out;
-}
